@@ -110,3 +110,6 @@ cv2.imshow(slice_img)
 resized_img = cv2.resize(img, (300, 300))
 cv2.imshow(resized_img)
 
+# Flip image
+backflip_img = cv2.flip(img,0)
+cv2.imshow(backflip_img)
